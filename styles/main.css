@@ -1,0 +1,13 @@
+.photo-carousel {
+  padding: 40px 40px 80px 40px;
+}
+
+.photo-carousel .carousel {
+  margin: auto;
+  max-width: 800px;
+}
+
+.carousel-item {
+  width: 800px;
+  height: 450px;
+}
