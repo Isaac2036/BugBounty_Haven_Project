@@ -1,11 +1,101 @@
-footer {
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  /* position: relative; */
+/* Content fake */
+.content-fake {
+  border: 2px dashed salmon;
+}
+p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-svg:hover {
-  border: 1px solid #dddddd;
-  border-radius: 5px;
+.photo-carousel {
+  border: 2px dashed purple;
+}
+
+footer {
+  border: 2px dashed green;
+}
+
+/* Footer */
+/* Siempre abajo */
+
+/* caso #1 */
+/* body {
+  position: relative;
+  min-height: 100vh;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+} */
+
+/* caso #2 */
+
+/* body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  margin-top: auto;
+} */
+
+/* caso #3 */
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  background-color: #505050;
+  color: #ccc;
+}
+
+footer ul li {
+  list-style: none;
+  color: #ddd;
+}
+
+footer .container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copyright p {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-copyright {
+  background-color: #313131;
+  border: 1px solid #313131;
+}
+
+.footer-section {
+  margin: 10px;
+  height: 80%;
+  /* width: 80%; */
+}
+
+.footer-section p {
+  font-weight: bold;
+  text-align: center;
+}
+
+footer .footer-section .mb-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-section a {
+  margin: 0;
+  padding: 5px;
 }
