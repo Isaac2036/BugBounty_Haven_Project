@@ -4,8 +4,14 @@ footer .copyright {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #ccc;
+  background-color: rgb(19, 74, 140);
 }
 
 footer .copyright p {
   margin: 15px;
+  color: antiquewhite;
+}
+
+footer .img {
+  align-items: center;
 }
