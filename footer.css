@@ -12,6 +12,31 @@ footer .copyright p {
   color: antiquewhite;
 }
 
-footer .img {
-  align-items: center;
+footer h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+}
+
+footer h6 {
+  color:azure;
+}
+
+footer .footer-widgets {
+ background-color: rgb(46, 45, 45);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo img {
+  height: 300px;
 }
