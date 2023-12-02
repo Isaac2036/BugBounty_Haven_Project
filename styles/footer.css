@@ -5,7 +5,8 @@
 .logo-img {
   height: 120px;
 }
-footer a i:hover,
-footer a:hover {
+
+footer.container-footer a i:hover,
+footer.container-footer a:hover {
   color: var(--color-footer-anchor) !important;
 }
