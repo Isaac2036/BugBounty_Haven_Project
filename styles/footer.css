@@ -1,24 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  border: 1px solid black;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-.logo-container {
-  text-align: center;
+:root {
+  --color-footer-anchor: azure;
 }
 
 .logo-img {
-  height: 150px;
+  height: 120px;
 }
-
-.copyright {
-  border-top: 1px solid #ccc;
+footer a i:hover,
+footer a:hover {
+  color: var(--color-footer-anchor) !important;
 }
