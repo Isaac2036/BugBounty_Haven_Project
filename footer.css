@@ -4,7 +4,7 @@ footer .copyright {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #ccc;
-  background-color: rgb(19, 74, 140);
+  background-color: rgb(24, 23, 23);
 }
 
 footer .copyright p {
@@ -15,14 +15,22 @@ footer .copyright p {
 footer h5 {
   font-family: Arial, Helvetica, sans-serif;
   color: azure;
+
 }
 
 footer h6 {
   color:azure;
 }
 
+footer a {
+  color:azure;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 footer .footer-widgets {
- background-color: rgb(46, 45, 45);
+ background-color: rgb(39, 45, 45);
 }
 
 * {
@@ -39,4 +47,22 @@ body {
 
 .logo img {
   height: 300px;
+}
+
+.Social_container {
+  margin-bottom: 5rem;
+}
+
+.Social_icon {
+  margin-right: 10px;
+  background-color:aliceblue;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 1%;
+  border-radius: 8px;
+}
+
+.Social_icon img {
+  height: 15px;
 }
