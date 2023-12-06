@@ -15,10 +15,16 @@ footer .copyright p {
 footer h5 {
   font-family: Arial, Helvetica, sans-serif;
   color: azure;
+  text-decoration: underline;
 
 }
 
+
 footer h6 {
+  color:azure;
+}
+
+footer h4 {
   color:azure;
 }
 
@@ -27,6 +33,7 @@ footer a {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
   font-size: 15px;
+  
 }
 
 footer .footer-widgets {
@@ -43,6 +50,7 @@ body {
 
 .logo-container {
   text-align: center;
+  margin-top: 20%;
 }
 
 .logo img {
@@ -66,4 +74,13 @@ body {
 
 .Social_icon img {
   height: 15px;
+}
+
+.footer-items {
+  margin-top: 25%;
+}
+
+.bi bi-book img {
+ color: antiquewhite;
+  
 }
