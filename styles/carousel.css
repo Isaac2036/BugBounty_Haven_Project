@@ -1,0 +1,13 @@
+#carusel-colegio-mobil {
+  display: none;
+}
+
+/* Carrusel responsivo */
+@media screen and (max-width: 480px) {
+  #carusel-colegio-web {
+    display: none;
+  }
+  #carusel-colegio-mobil {
+    display: block;
+  }
+}
